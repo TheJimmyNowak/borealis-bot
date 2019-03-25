@@ -1,0 +1,17 @@
+{
+  "name": "borealis-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd src && node ."
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Mikołaj Data & staswalle",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
