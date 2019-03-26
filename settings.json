@@ -1,4 +1,5 @@
 {
     "token": "NTU5ODMyNTg2NTQ1OTIyMDc1.D3rIYw.qwvXIX6Hzb1hCfoewirjRFWh4Rw",
-    "prefix": "-"
+    "prefix": "-",
+    "db-url": "mongodb+srv://system-cardinal:haslo1234@borealis-zhanz.mongodb.net/test?retryWrites=true"
 }
