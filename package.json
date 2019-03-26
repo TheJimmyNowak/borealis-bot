@@ -12,6 +12,7 @@
   "author": "Mikołaj Data & staswalle",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "mongodb": "^3.2.2"
   }
 }
