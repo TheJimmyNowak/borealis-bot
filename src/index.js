@@ -1,5 +1,7 @@
-const { Client } = require('discord.js');
-const { token } = require('../settings');
+const { Client } = require('discord.js')
+const settings = require('../settings')
+const GuildSetup = require('./guildManager/GuildSetup')
+
 const client = new Client();
 
 client.on('ready', () => console.log('Ready!'));
@@ -12,7 +14,5 @@ client.on('message', (msg) => {
     }
 });
 
-client.on('guildCreate', guild => {
-    guild.createChannel("borealis-control", "text")
-})
-client.login(token);
+
+client.login(settings["token"]);
